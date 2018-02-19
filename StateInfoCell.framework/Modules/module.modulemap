@@ -1,0 +1,11 @@
+framework module StateInfoCell {
+  umbrella header "StateInfoCell.h"
+
+  export *
+  module * { export * }
+}
+
+module StateInfoCell.Swift {
+    header "StateInfoCell-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module Pods_USAStatesInfo {
+  umbrella header "Pods-USAStatesInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
